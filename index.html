@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <meta name="description" content="A simple hello-world single page application for GitHub Pages.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#/" class="logo">Hello<span>World</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <ul>
+          <li><a href="#/" data-route="/">Home</a></li>
+          <li><a href="#/about" data-route="/about">About</a></li>
+          <li><a href="#/features" data-route="/features">Features</a></li>
+          <li><a href="#/contact" data-route="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Hello World &middot; Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

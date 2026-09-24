@@ -6,7 +6,7 @@ const routes = {
     title: "Home",
     render: () => `
       <section class="hero">
-        <h1>Hello, World! 👋</h1>
+        <h1>Hello World! 👋</h1>
         <p class="lead">A simple, responsive single page application hosted on GitHub Pages.
         Use the menu to move between pages — no page reloads required.</p>
         <a class="btn" href="#/features">See the features</a>
